@@ -1,0 +1,33 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/recoil_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+weapon_name = "Vandal (Randomized Spread)"
+pattern_mode = "randomized"
+pattern = [Vector2(0, 5), Vector2(0.6, 5.5), Vector2(-0.6, 5), Vector2(1.6, 4), Vector2(3.6, 3), Vector2(5, 2.5), Vector2(5.5, 2), Vector2(4, 2), Vector2(1, 2), Vector2(-2.5, 2), Vector2(-5.5, 2), Vector2(-8, 2)]
+loop_pattern = true
+horizontal_rng = 9.0
+vertical_rng = 1.5
+pattern_randomness = 0.0
+base_spread = 9.0
+max_spread = 65.0
+spread_per_shot = 4.5
+spread_recovery_rate = 50.0
+kick_rise_time = 0.05
+kick_rise_curve = "ease_out"
+sustain_sway_amp = 5.0
+sustain_sway_period = 11.0
+viewkick_vertical = 2.5
+viewkick_horizontal = 1.1
+viewkick_rng = 0.7
+reset_delay = 0.12
+viewkick_recovery = 110.0
+viewkick_damping = 16.0
+recovery_curve = "ease_out"
+recovery_rate = 0.95
+recovery_fraction = 0.15
+climb_soft_cap = 95.0
+fire_rate = 9.75
+sustain_delta = Vector2(0, 2.2)

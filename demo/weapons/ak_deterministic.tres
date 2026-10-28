@@ -1,0 +1,33 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/recoil_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+weapon_name = "AK-47 (Deterministic Pattern)"
+pattern_mode = "deterministic"
+pattern = [Vector2(0, 5), Vector2(1, 6), Vector2(1, 7), Vector2(2, 7), Vector2(2, 6), Vector2(2, 5), Vector2(-1, 4), Vector2(-3, 3), Vector2(-5, 3), Vector2(-6, 2), Vector2(-7, 2), Vector2(-8, 1), Vector2(-5, 1), Vector2(-2, 1), Vector2(1, 1), Vector2(4, 1), Vector2(7, 1), Vector2(9, 1), Vector2(6, 1), Vector2(2, 1), Vector2(-2, 1), Vector2(-6, 1), Vector2(-9, 1), Vector2(-11, 1), Vector2(-7, 1), Vector2(-3, 1), Vector2(1, 1), Vector2(5, 1), Vector2(8, 1), Vector2(10, 1)]
+loop_pattern = false
+sustain_delta = Vector2(0, 2.4)
+horizontal_rng = 0.0
+vertical_rng = 0.0
+pattern_randomness = 0.6
+base_spread = 7.0
+max_spread = 55.0
+spread_per_shot = 4.0
+spread_recovery_rate = 55.0
+kick_rise_time = 0.05
+kick_rise_curve = "ease_out"
+sustain_sway_amp = 4.5
+sustain_sway_period = 9.0
+viewkick_vertical = 3.0
+viewkick_horizontal = 1.3
+viewkick_rng = 0.8
+reset_delay = 0.12
+viewkick_recovery = 115.0
+viewkick_damping = 17.0
+recovery_curve = "ease_out"
+recovery_rate = 0.85
+recovery_fraction = 0.15
+climb_soft_cap = 100.0
+fire_rate = 10.0

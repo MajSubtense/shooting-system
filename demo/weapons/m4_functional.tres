@@ -1,0 +1,37 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/recoil_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+weapon_name = "M4 (Functional Pattern)"
+pattern_mode = "deterministic"
+pattern_source = "function"
+pattern = []
+loop_pattern = false
+horizontal_rng = 0.0
+vertical_rng = 0.0
+pattern_randomness = 0.0
+base_spread = 7.0
+max_spread = 52.0
+spread_per_shot = 4.0
+spread_recovery_rate = 55.0
+kick_rise_time = 0.05
+kick_rise_curve = "ease_out"
+viewkick_vertical = 2.8
+viewkick_horizontal = 1.1
+viewkick_rng = 0.7
+reset_delay = 0.12
+viewkick_recovery = 115.0
+viewkick_damping = 17.0
+recovery_curve = "ease_out"
+recovery_rate = 0.9
+recovery_fraction = 0.15
+climb_soft_cap = 85.0
+fire_rate = 11.0
+func_climb_amp = 38.0
+func_climb_rate = 0.45
+func_sway_amp = 4.0
+func_sway_freq = 0.55
+func_sway_phase = 0.0
+func_drift = Vector2(0.6, 0.4)

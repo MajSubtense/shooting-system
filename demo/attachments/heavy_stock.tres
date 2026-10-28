@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/attachment.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+attachment_name = "Heavy Stock"
+slot = "Stock"
+recoil_mult = 0.92
+stability_mult = 0.92
+hipfire_spread_mult = 1.0
+viewkick_mult = 0.85
+recovery_speed_mult = 1.3
+fire_rate_mult = 1.0
+reset_delay_add = -0.05
